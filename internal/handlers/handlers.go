@@ -7,9 +7,9 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/rafaelsfaria/bookings/pkg/config"
-	"github.com/rafaelsfaria/bookings/pkg/models"
-	"github.com/rafaelsfaria/bookings/pkg/render"
+	"github.com/rafaelsfaria/bookings/internal/config"
+	"github.com/rafaelsfaria/bookings/internal/models"
+	"github.com/rafaelsfaria/bookings/internal/render"
 )
 
 type Repository struct {
